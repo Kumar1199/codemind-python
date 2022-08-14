@@ -1,0 +1,9 @@
+a,b=map(int,input().split())
+b=(-1*b)-1
+c=bin(a)
+d=c[2:]
+f=d[:b]
+i=d[b+1:]
+l=f+"1"+i
+g=int(l,2)
+print(g)
