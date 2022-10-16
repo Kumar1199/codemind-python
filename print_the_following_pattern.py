@@ -1,7 +1,5 @@
 n=int(input())
-c=[]
+l=[]
 for i in range(1,n+1):
-    c.append(str(i))
-for i in range(n):
-    print("".join(c))
-    c.pop()
+    l.append(str(i))
+    print("".join(l))
